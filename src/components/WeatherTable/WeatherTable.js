@@ -6,9 +6,7 @@ import './WeatherTable.css';
 
 
 
-
 class WeatherTable extends React.Component{
-
 
 
 render(){
@@ -19,11 +17,21 @@ render(){
         <div className="forecast-table">
           <div className="container">
             <div className="forecast-container">
-               {
+
+         {
+
+        
+
+
+
           this.props.weatherList.map(weather => {
-            return <Weather weatherday={weather} />
+
+            return <Weather weather={weather}  />
           })
         }
+
+
+
 
 
             </div>
