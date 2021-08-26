@@ -4,33 +4,6 @@ import imgsource from './images/icons/icon-3.svg';
 import SearchBar from '../SearchBar/SearchBar';
 import WeatherTable from '../WeatherTable/WeatherTable';
 import api from '../../api/api';
-/*
-
-const weatherObj ={
-
-day:'Wed',
-imgsrc: imgsource,
-date: 'Aug 20',
-City: 'Detroit',
-highDegree:'80F',
-lowDegree:'18F'
-
-};
-
-
-
-const weather = [
-  weatherObj,
-  weatherObj,
-  weatherObj,
-  weatherObj,
-  weatherObj,
-  weatherObj,
-  weatherObj
-];
-
-*/
-
 
 
 class App extends React.Component {

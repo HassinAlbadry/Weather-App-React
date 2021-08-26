@@ -32,19 +32,3 @@ const api = {
 export default api;
 
 
-/*
-
- id: weather.id,
-          imageSrc: weather.image_url,
-          name: weather.name,
-          address: weather.location.address1,
-          city:weather.location.city,
-          state: weather.location.state,
-          zipCode: weather.location.zip_code,
-          category: weather.categories[0].title,
-          rating: weather.rating,
-          reviewCount: weather.review_count
-
-
-
-*/
